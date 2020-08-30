@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="tech.yiyehu.executor.modules.sys.dao.ExeDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="tech.yiyehu.executor.modules.sys.entity.ExeEntity" id="exeMap">
+        <result property="exeId" column="exe_id"/>
+        <result property="path" column="path"/>
+        <result property="params" column="params"/>
+        <result property="remark" column="remark"/>
+        <result property="type" column="type"/>
+        <result property="paramType" column="param_type"/>
+    </resultMap>
+
+</mapper>
