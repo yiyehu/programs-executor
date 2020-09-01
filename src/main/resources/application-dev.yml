@@ -5,7 +5,7 @@ spring:
             driver-class-name: com.mysql.cj.jdbc.Driver
             url: jdbc:mysql://yiyehu.tech:3306/executor?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
             username: executor
-            password: 
+            password: pwd
             initial-size: 10
             max-active: 100
             min-idle: 10
